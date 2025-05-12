@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, Github, Linkedin, ArrowRight } from 'lucide-react';
+import logoImage from './images/logo.png';
 
 const CVWebsite = () => {
   return (
@@ -7,8 +8,17 @@ const CVWebsite = () => {
       {/* Header */}
       <header className="bg-teal-700 text-white py-12">
         <div className="container mx-auto px-4 md:px-8">
-          <h1 className="text-3xl md:text-4xl font-bold mb-2">DONN LESTER REGALADO</h1>
-          <h2 className="text-xl md:text-2xl font-light mb-4">Full Stack Web Developer</h2>
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <h1 className="text-3xl md:text-4xl font-bold mb-2">DONN LESTER REGALADO</h1>
+              <h2 className="text-xl md:text-2xl font-light mb-4">Full Stack Web Developer</h2>
+            </div>
+            <div className="mt-4 md:mt-0">
+              <div className="bg-white p-2 rounded w-32 h-32 flex items-center justify-center shadow-md overflow-hidden">
+                <img src={logoImage} alt="Donn Regalado Logo" />
+              </div>
+            </div>
+          </div>
           
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <a href="tel:+66620169745" className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 px-4 py-2 rounded-full transition-colors">
@@ -115,13 +125,13 @@ const CVWebsite = () => {
           <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-2 border-b border-gray-200">Testimonials</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <blockquote className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-teal-500">
+            <blockquote className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
               <p className="text-gray-600 italic mb-4">
                 "Donn is a reliable and driven developer who consistently delivers high-quality, production-ready code. His attention to detail and commitment to performance optimization made a measurable impact on our products."
               </p>
             </blockquote>
             
-            <blockquote className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-teal-500">
+            <blockquote className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
               <p className="text-gray-600 italic mb-4">
                 "I've worked with Donn on several demanding projects. He's an excellent front-end developer with the ability to translate designs into pixel-perfect, accessible interfaces."
               </p>
@@ -139,7 +149,7 @@ const CVWebsite = () => {
             and a drive for continuous improvement, let's connect.
           </p>
           <div className="flex justify-center gap-4 mt-4">
-            <a href="mailto:donn.regalado2@gmail.com" className="bg-teal-600 hover:bg-teal-500 px-4 py-2 rounded-md transition-colors flex items-center gap-2">
+            <a href="mailto:donn.regalado2@gmail.com" className="bg-teal-600 hover:bg-teal-500 px-6 py-2 rounded-full transition-colors flex items-center gap-2">
               <Mail size={18} />
               <span>Contact Me</span>
             </a>
