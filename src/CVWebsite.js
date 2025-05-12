@@ -19,11 +19,11 @@ const CVWebsite = () => {
               <Mail size={18} />
               <span>donn.regalado2@gmail.com</span>
             </a>
-            <a href="https://github.com/" className="flex items-center gap-2 hover:text-orange-200 transition-colors">
+            <a href="https://github.com/donn-chan" className="flex items-center gap-2 hover:text-orange-200 transition-colors">
               <Github size={18} />
               <span>GitHub</span>
             </a>
-            <a href="https://linkedin.com/" className="flex items-center gap-2 hover:text-orange-200 transition-colors">
+            <a href="https://www.linkedin.com/in/donn-lester-regalado/" className="flex items-center gap-2 hover:text-orange-200 transition-colors">
               <Linkedin size={18} />
               <span>LinkedIn</span>
             </a>
