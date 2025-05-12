@@ -7,23 +7,23 @@ const CVWebsite = () => {
       {/* Header */}
       <header className="bg-teal-700 text-white py-12">
         <div className="container mx-auto px-4 md:px-8">
-          <h1 className="text-3xl md:text-4xl font-bold mb-2">Donn Lester Regalado</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-2">DONN LESTER REGALADO</h1>
           <h2 className="text-xl md:text-2xl font-light mb-4">Full Stack Web Developer</h2>
           
           <div className="flex flex-wrap items-center gap-4 mt-6">
-            <a href="tel:+66620169745" className="flex items-center gap-2 hover:text-orange-200 transition-colors">
+            <a href="tel:+66620169745" className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 px-4 py-2 rounded-full transition-colors">
               <Phone size={18} />
               <span>+6662-016-9745</span>
             </a>
-            <a href="mailto:donn.regalado2@gmail.com" className="flex items-center gap-2 hover:text-orange-200 transition-colors">
+            <a href="mailto:donn.regalado2@gmail.com" className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 px-4 py-2 rounded-full transition-colors">
               <Mail size={18} />
               <span>donn.regalado2@gmail.com</span>
             </a>
-            <a href="https://github.com/donn-chan" className="flex items-center gap-2 hover:text-orange-200 transition-colors">
+            <a href="https://github.com/donn-chan" className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 px-4 py-2 rounded-full transition-colors">
               <Github size={18} />
               <span>GitHub</span>
             </a>
-            <a href="https://www.linkedin.com/in/donn-lester-regalado/" className="flex items-center gap-2 hover:text-orange-200 transition-colors">
+            <a href="https://www.linkedin.com/in/donn-lester-regalado/" className="flex items-center gap-2 bg-teal-600 hover:bg-teal-500 px-4 py-2 rounded-full transition-colors">
               <Linkedin size={18} />
               <span>LinkedIn</span>
             </a>
@@ -115,13 +115,13 @@ const CVWebsite = () => {
           <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-2 border-b border-gray-200">Testimonials</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <blockquote className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+            <blockquote className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-teal-500">
               <p className="text-gray-600 italic mb-4">
                 "Donn is a reliable and driven developer who consistently delivers high-quality, production-ready code. His attention to detail and commitment to performance optimization made a measurable impact on our products."
               </p>
             </blockquote>
             
-            <blockquote className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
+            <blockquote className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-teal-500">
               <p className="text-gray-600 italic mb-4">
                 "I've worked with Donn on several demanding projects. He's an excellent front-end developer with the ability to translate designs into pixel-perfect, accessible interfaces."
               </p>
@@ -139,7 +139,7 @@ const CVWebsite = () => {
             and a drive for continuous improvement, let's connect.
           </p>
           <div className="flex justify-center gap-4 mt-4">
-            <a href="mailto:donn.regalado2@gmail.com" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-md transition-colors flex items-center gap-2">
+            <a href="mailto:donn.regalado2@gmail.com" className="bg-teal-600 hover:bg-teal-500 px-4 py-2 rounded-md transition-colors flex items-center gap-2">
               <Mail size={18} />
               <span>Contact Me</span>
             </a>
