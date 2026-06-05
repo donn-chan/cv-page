@@ -67,9 +67,21 @@ const CVWebsite = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-4 pb-2 border-b border-slate-200">Professional Experience</h2>
           
           <ExperienceItem 
+            company="BrandStromX" 
+            position="Head of Web Development" 
+            period="Jan 2026 – Present"
+            achievements={[
+              "Lead technical direction and development of scalable, full-scale web solutions from business requirements.",
+              "Oversee a development team, establishing high engineering standards and ensuring timely feature delivery",
+              "Partner with the COO to align technical roadmaps with company growth and business goals.",
+
+            ]}
+          />
+
+          <ExperienceItem 
             company="Neighbors and Friends" 
             position="Full Stack Web Developer" 
-            period="Jul 2022 – Present"
+            period="Jul 2022 – November 2025"
             achievements={[
               "Developed responsive web interfaces with React and TypeScript, ensuring WCAG compliance",
               "Reduced page load times by 40% through bundle optimization and code splitting",
